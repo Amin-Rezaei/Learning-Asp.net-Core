@@ -12,7 +12,5 @@ namespace WebApi.Services
         int Execute(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure);
         T Insert<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure);
         T Update<T>(string sp, DynamicParameters parms, CommandType commandType = CommandType.StoredProcedure);
-       
-        
     }
 }
